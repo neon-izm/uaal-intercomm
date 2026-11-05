@@ -1,0 +1,12 @@
+.specstory
+uaal-intercomm/Logs
+uaal-intercomm/Temp
+uaal-intercomm/UserSettings
+uaal-intercomm/ServerData/
+uaal-intercomm/Builds/
+/build/
+.env
+ios-app/**/xcuserdata/
+ios-app/DerivedData/
+uaal-intercomm/.vscode
+ios/UaalIntercomm/.build

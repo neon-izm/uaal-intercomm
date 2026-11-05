@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: remote-cars
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: remote-cars
+  m_GUID: 6754f1d0ce1ac4d86b5cbc45387bb2f5
+  m_SerializeEntries:
+  - m_GUID: 6ba98905ca81140cdba1b7a7ebdb8e37
+    m_Address: carB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 984903cca67fc4ff8abc47a96069d614
+    m_Address: carA
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe561b83ed4a8475f86557530a920ad8
+    m_Address: carC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ed27bf546fa69439abfcc10fd8093ded, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0403f052ac54f43b0a91c12468b52e35, type: 2}
+    - {fileID: 11400000, guid: 36b8fa1da8392418ab0b6929e041a74e, type: 2}
+    m_SchemaDisplayOrder:
+    - remote-cars_BundledAssetGroupSchema
+    - remote-cars_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

@@ -1,0 +1,40 @@
+name: UaalIntercommApp
+options:
+  bundleIdPrefix: dev.uaal.intercomm
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": x86_64
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: uaal-intercomm
+    INFOPLIST_KEY_UILaunchScreen_Generation: YES
+    INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+targets:
+  UaalIntercommApp:
+    type: application
+    platform: iOS
+    sources:
+      - App
+    dependencies:
+      - package: UaalIntercomm
+        product: UaalIntercomm
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.uaal.intercomm.app
+packages:
+  UaalIntercomm:
+    path: ../ios/UaalIntercomm
+schemes:
+  UaalIntercommApp:
+    build:
+      targets:
+        UaalIntercommApp: all
+    run:
+      config: Debug
